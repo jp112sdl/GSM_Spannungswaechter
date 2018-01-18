@@ -1,7 +1,7 @@
 # GSM Spannungswächter
 
 ### Zutaten:
-- 1x A6 GSM Modul
+- 1x Mini A6 GSM Modul
 - 1x Wemos D1 mini
 - 1x Wemos Battery Shield
 - 1x 3,7V LiPo Akku
