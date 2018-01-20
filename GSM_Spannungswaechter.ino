@@ -98,7 +98,6 @@ void setup() {
   if (!SPIFFS.begin()) {
     Serial.println("Failed to mount file system");
     printDisplayLine(5, false, "SPIFFS ERROR!");
-    while (1 == 1);
   } else {
     if (!loadConfig()) {
       printDisplayLine(5, false, "loadConfig ERROR!");
