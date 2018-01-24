@@ -28,7 +28,7 @@ void drawBalance() {
   String gh = String(balance, DEC);
   String tmp = "";
   for (int i = 0; i < gh.length(); i++) {
-    if (i == gh.length()  - 2) tmp += ".";
+    if (i == gh.length() - 2) tmp += ".";
     tmp += gh[i];
   }
 
